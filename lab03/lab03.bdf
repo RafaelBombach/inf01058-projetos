@@ -148,7 +148,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 376 48 440 96)
+	(rect 432 304 496 352)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst1" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -206,7 +206,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 336 296 464 392)
+	(rect 360 0 488 96)
 	(text "LAB01" (rect 5 0 43 14)(font "Arial" (font_size 8)))
 	(text "inst4" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -239,31 +239,6 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 112 80))
-	)
-)
-(symbol
-	(rect 384 240 432 272)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst7" (rect 3 21 26 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
 	)
 )
 (symbol
@@ -715,9 +690,34 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 968 480 1016 512)
+	(rect 544 112 592 144)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst9" (rect 3 21 26 33)(font "Arial" ))
+	(text "inst10" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
+(symbol
+	(rect 936 192 984 224)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst23" (rect 3 21 32 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -757,28 +757,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 312 56)
-	(pt 312 64)
-	(bus)
-)
-(connector
-	(pt 312 88)
-	(pt 312 80)
-	(bus)
-)
-(connector
-	(text "B[3..0]" (rect 336 64 369 76)(font "Arial" ))
-	(pt 312 80)
-	(pt 376 80)
-	(bus)
-)
-(connector
-	(text "A[3..0]" (rect 336 48 369 60)(font "Arial" ))
-	(pt 312 64)
-	(pt 376 64)
-	(bus)
-)
-(connector
 	(pt 856 152)
 	(pt 1016 152)
 	(bus)
@@ -787,10 +765,6 @@ applicable agreement for further details.
 	(pt 1016 152)
 	(pt 1016 168)
 	(bus)
-)
-(connector
-	(pt 1016 208)
-	(pt 1016 184)
 )
 (connector
 	(pt 632 512)
@@ -945,16 +919,6 @@ applicable agreement for further details.
 	(pt 1432 168)
 )
 (connector
-	(text "SEL[1]" (rect 239 528 272 540)(font "Arial" ))
-	(pt 208 544)
-	(pt 616 544)
-)
-(connector
-	(text "SEL[1]" (rect 319 240 352 252)(font "Arial" ))
-	(pt 288 256)
-	(pt 384 256)
-)
-(connector
 	(text "Z" (rect 1477 416 1484 428)(font "Arial" ))
 	(pt 1456 432)
 	(pt 1504 432)
@@ -1007,17 +971,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 432 256)
-	(pt 584 256)
-)
-(connector
 	(pt 584 224)
 	(pt 584 256)
-)
-(connector
-	(text "SEL[1]" (rect 251 400 284 412)(font "Arial" ))
-	(pt 568 416)
-	(pt 208 416)
 )
 (connector
 	(pt 616 416)
@@ -1036,59 +991,13 @@ applicable agreement for further details.
 	(pt 616 224)
 )
 (connector
-	(pt 280 312)
-	(pt 280 328)
-	(bus)
-)
-(connector
-	(text "A[3..0]" (rect 288 312 321 324)(font "Arial" ))
-	(pt 280 328)
-	(pt 336 328)
-	(bus)
-)
-(connector
-	(text "B[3..0]" (rect 288 328 321 340)(font "Arial" ))
-	(pt 280 344)
-	(pt 336 344)
-	(bus)
-)
-(connector
-	(pt 464 328)
-	(pt 680 328)
-	(bus)
-)
-(connector
 	(pt 792 144)
 	(pt 736 144)
 	(bus)
 )
 (connector
-	(pt 1016 496)
-	(pt 1024 496)
-)
-(connector
-	(pt 1024 496)
-	(pt 1024 440)
-)
-(connector
-	(text "SEL[0]" (rect 920 480 953 492)(font "Arial" ))
-	(pt 968 496)
-	(pt 912 496)
-)
-(connector
-	(pt 648 72)
-	(pt 648 88)
-	(bus)
-)
-(connector
 	(pt 648 128)
 	(pt 648 104)
-)
-(connector
-	(text "<<__$DEF_ALIAS2344>>" (rect 448 56 571 68)(font "Arial" )(invisible))
-	(pt 440 72)
-	(pt 648 72)
-	(bus)
 )
 (connector
 	(pt 736 96)
@@ -1099,16 +1008,6 @@ applicable agreement for further details.
 	(pt 736 144)
 	(pt 736 96)
 	(bus)
-)
-(connector
-	(text "SEL[1]" (rect 463 112 496 124)(font "Arial" ))
-	(pt 448 128)
-	(pt 648 128)
-)
-(connector
-	(text "SEL[0]" (rect 928 192 961 204)(font "Arial" ))
-	(pt 1016 208)
-	(pt 920 208)
 )
 (connector
 	(pt 832 432)
@@ -1135,6 +1034,103 @@ applicable agreement for further details.
 	(pt 208 496)
 	(pt 328 496)
 	(bus)
+)
+(connector
+	(pt 368 312)
+	(pt 368 320)
+	(bus)
+)
+(connector
+	(pt 368 344)
+	(pt 368 336)
+	(bus)
+)
+(connector
+	(text "B[3..0]" (rect 392 320 425 332)(font "Arial" ))
+	(pt 368 336)
+	(pt 432 336)
+	(bus)
+)
+(connector
+	(text "A[3..0]" (rect 392 304 425 316)(font "Arial" ))
+	(pt 368 320)
+	(pt 432 320)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS2344>>" (rect 504 312 627 324)(font "Arial" )(invisible))
+	(pt 496 328)
+	(pt 680 328)
+	(bus)
+)
+(connector
+	(pt 648 88)
+	(pt 648 32)
+	(bus)
+)
+(connector
+	(text "A[3..0]" (rect 312 16 345 28)(font "Arial" ))
+	(pt 312 32)
+	(pt 360 32)
+	(bus)
+)
+(connector
+	(text "B[3..0]" (rect 312 32 345 44)(font "Arial" ))
+	(pt 304 48)
+	(pt 360 48)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS2344>>" (rect 440 16 563 28)(font "Arial" )(invisible))
+	(pt 648 32)
+	(pt 488 32)
+	(bus)
+)
+(connector
+	(text "SEL[0]" (rect 251 400 284 412)(font "Arial" ))
+	(pt 568 416)
+	(pt 208 416)
+)
+(connector
+	(text "SEL[0]" (rect 239 528 272 540)(font "Arial" ))
+	(pt 208 544)
+	(pt 616 544)
+)
+(connector
+	(text "SEL[0]" (rect 463 112 496 124)(font "Arial" ))
+	(pt 544 128)
+	(pt 448 128)
+)
+(connector
+	(pt 592 128)
+	(pt 648 128)
+)
+(connector
+	(pt 1016 184)
+	(pt 1016 208)
+)
+(connector
+	(pt 984 208)
+	(pt 1016 208)
+)
+(connector
+	(text "SEL[1]" (rect 872 192 905 204)(font "Arial" ))
+	(pt 824 208)
+	(pt 936 208)
+)
+(connector
+	(text "SEL[0]" (rect 319 240 352 252)(font "Arial" ))
+	(pt 288 256)
+	(pt 584 256)
+)
+(connector
+	(pt 1024 440)
+	(pt 1024 496)
+)
+(connector
+	(text "SEL[1]" (rect 920 480 953 492)(font "Arial" ))
+	(pt 912 496)
+	(pt 1024 496)
 )
 (junction (pt 1224 296))
 (junction (pt 1224 384))
